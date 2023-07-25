@@ -21,4 +21,10 @@ Run the livox viewer by running :
 ```
 Upon opening the LIVOX-Viewer, you will be able to see the list of available LIVOX LiDAR devices. Once your LIVOX-AVIA LiDAR is connected and recognized by the viewer, it will appear in the list. To observe the point clouds in real-time, simply click on the "play" button provided within the LIVOX-Viewer interface. This action will initiate the visualization of live point cloud data captured by the LIVOX-AVIA LiDAR in real-time.
 
+## LIVOX-SDK 
 
+Livox Tech offers a Software Development Kit (SDK) for their LiDAR devices, which enables developers to perform various operations and utilize the LiDAR's functionalities in their applications. For comprehensive details and information about the SDK, you can access the following link (provide the specific link to the Livox Tech website or SDK documentation page). There, you will find documentation, code samples, and resources to help you integrate and use the Livox LiDAR SDK effectively in your projects. Make sure to follow each step carefully. 
+```shell
+https://github.com/Livox-SDK/Livox-SDK
+```
+## Livox Detection-simu V1.0
