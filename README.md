@@ -66,14 +66,14 @@ Select the label as Cuboid and label the objects from the point cloud.
 ### Automatic Labeling Using MATLAB
 To automate the labeling process in MATLAB Lidar Labeler, follow these steps:
 
-> - Open MATLAB Lidar Labeler and load the point cloud data for labeling.
+- Open MATLAB Lidar Labeler and load the point cloud data for labeling.
 
-> - Manually label one object of interest in each frame for around 10-20 frames. Ensure that you label the same object consistently in each frame.
+- Manually label one object of interest in each frame for around 10-20 frames. Ensure that you label the same object consistently in each frame.
 
-> - After manual labeling, use one of the provided automation algorithms in MATLAB Lidar Labeler. This algorithm will attempt to label the selected object automatically in the subsequent frames.
+- After manual labeling, use one of the provided automation algorithms in MATLAB Lidar Labeler. This algorithm will attempt to label the selected object automatically in the subsequent frames.
 
-> - Review the automated labels and correct any inaccuracies or mistakes. This step is crucial to ensure the accuracy of the automated labeling.
+- Review the automated labels and correct any inaccuracies or mistakes. This step is crucial to ensure the accuracy of the automated labeling.
 
-> - Repeat the process for each object you want to label automatically. For each object, select one instance of it in each frame and apply the automation algorithm followed by manual corrections.
+- Repeat the process for each object you want to label automatically. For each object, select one instance of it in each frame and apply the automation algorithm followed by manual corrections.
 
 By following this approach, you can accelerate the labeling process while still maintaining the accuracy of the annotations by using the provided automation algorithms and making manual corrections as needed.
