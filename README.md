@@ -28,3 +28,8 @@ Livox Tech offers a Software Development Kit (SDK) for their LiDAR devices, whic
 https://github.com/Livox-SDK/Livox-SDK
 ```
 ## Livox Detection-simu V1.0
+In this repository, you will find the Livox Object Detection Version 1, which includes the necessary code to perform object detection using Livox LiDAR data. To enable distance measurement with object detection, you can replace the existing `livox_detection_simu.py` file in the repository with the provided file. Once you replace the file, run the updated code, and it will integrate distance measurement with the object detection functionality, utilizing Livox LiDAR data for accurate results.
+```shell
+https://github.com/Livox-SDK/livox_detection_simu
+```
+Please ensure that you have the required dependencies and hardware set up correctly before running the modified code for proper functionality.
