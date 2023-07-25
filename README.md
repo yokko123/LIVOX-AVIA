@@ -28,8 +28,30 @@ Livox Tech offers a Software Development Kit (SDK) for their LiDAR devices, whic
 https://github.com/Livox-SDK/Livox-SDK
 ```
 ## Livox Detection-simu V1.0
-In this repository, you will find the Livox Object Detection Version 1, which includes the necessary code to perform object detection using Livox LiDAR data. To enable distance measurement with object detection, you can replace the existing `livox_detection_simu.py` file in the repository with the provided file. Once you replace the file, run the updated code, and it will integrate distance measurement with the object detection functionality, utilizing Livox LiDAR data for accurate results.
+In this repository, you will find the Livox Object Detection Version 1, which includes the necessary code to perform object detection using Livox LiDAR data. To enable distance measurement with object detection, you can replace the existing `livox_detection_simu.py` file in the repository with the provided file in `detection-v-1` folder. Once you replace the file, run the updated code, and it will integrate distance measurement with the object detection functionality, utilizing Livox LiDAR data for accurate results.
 ```shell
 https://github.com/Livox-SDK/livox_detection_simu
 ```
 Please ensure that you have the required dependencies and hardware set up correctly before running the modified code for proper functionality.
+```shell
+Please make sure that the fixed_frame in RVIZ is changed to livox_frame
+```
+## Livox Detection V2
+In this repository, you will find the Livox Object Detection Version 2, which includes the necessary code to perform object detection using Livox LiDAR data. To enable distance measurement with object detection, you can replace the existing `test_ros.py` and `vis_ros.py` files from `tools` folder in the repository with the provided files in `detection-v-2` folder. Once you replace the file, run the updated code, and it will integrate distance measurement with the object detection functionality, utilizing Livox LiDAR data for accurate results.
+```shell
+https://github.com/Livox-SDK/livox_detection
+```
+For seamless operation, it is essential to have both the CUDA version and the PyTorch Cuda version identical. This ensures compatibility and enables efficient utilization of GPU resources for accelerated processing.
+```shell
+Please make sure that the fixed_frame in RVIZ is changed to livox_frame
+```
+
+## Data Collection with LIVOX
+There are two methods to obtain data from the LiDAR: using the `Livox Viewer` or the `Livox SDK`. In both approaches, the data is saved in the `.lvx` file format. To further process and utilize the data for training with deep learning models, you can convert the `.lvx` files to `.bag` files. For comprehensive information and guidelines, please refer to the Livox SDK repository, where you can find detailed instructions and resources to aid you in this process.
+
+## Conversion of Data from .bag to .pcd
+Please run the following command to convert rosbag to pointcloud. 
+
+```shell
+rosrun pcl_ros bag_to_pcd <input_file.bag> <topic> <output_directory>
+```
