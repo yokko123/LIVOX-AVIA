@@ -56,6 +56,7 @@ Please run the following command to convert rosbag to pointcloud.
 rosrun pcl_ros bag_to_pcd <input_file.bag> <topic> <output_directory>
 ```
 ## Labeling data in MATLAB
+![Lidar Labeler](images/lidar_labeler.png)
 To utilize MATLAB Lidar Labeler for data labeling, execute the following command to run the application.
 
 ```shell
