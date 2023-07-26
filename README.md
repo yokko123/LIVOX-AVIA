@@ -1,10 +1,14 @@
 # Getting Started LIVOX-AVIA
 <p align="center">
-  <img src="images/detectionv2.gif" />
+  <img src="images/detectionv2.gif" width="45%" />
+  <img src="images/detection2.gif" width="45%" />
 </p>
 This repository serves as a comprehensive guide on utilizing the LIVOX-AVIA LiDAR system, covering detailed instructions on its usage, accessing recorded data, and subsequently employing the data for object detection purposes.
 
 ## LIVOX Viewer
+<p align="center">
+  <img src="images/livox_viewer.png" />
+</p>
 Upon connecting the LiDAR to the power source and ethernet, the initial step involves modifying the computer's IP address. Access the network settings of the computer and configure the IPv4 address to
 
 ``` shell
