@@ -122,3 +122,10 @@ For our data please follow the given `[train_pcd.mlx](train_matlab/yolov4.mlx)` 
  - [ ] Change the labeling format of the custom dataset to train in python
  - [ ] Test on realtime scenarios 
 
+ ## References
+
+ - https://livoxtech.com/
+ - https://fr.mathworks.com/
+ - https://github.com/Livox-SDK
+ 
+
