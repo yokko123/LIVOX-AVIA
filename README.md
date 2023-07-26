@@ -1,4 +1,5 @@
 # Getting Started LIVOX-AVIA
+![](images/detectionv2.gif)
 This repository serves as a comprehensive guide on utilizing the LIVOX-AVIA LiDAR system, covering detailed instructions on its usage, accessing recorded data, and subsequently employing the data for object detection purposes.
 
 ## LIVOX Viewer
@@ -126,7 +127,8 @@ For our data please follow the given `[train_pcd.mlx](train_matlab/yolov4.mlx)` 
  - [ ] Labeling all the collected data
  - [ ] Train for multiclass objects
  - [ ] Change the labeling format of the custom dataset to train in python
- - [ ] Test on realtime scenarios 
+ - [ ] Test on realtime scenarios
+ - [ ] Improve yolov4 accuracy 
 
  ## References
 
