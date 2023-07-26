@@ -117,8 +117,8 @@ For our data please follow the given `[train_pcd.mlx](train_matlab/yolov4.mlx)` 
  - [X] Distance Measurement in real time
  - [X] Data Collection for custom dataset
  - [X] Train deep learning models on small dataset in MATLAB and measure distance of the objects 
- - [] Labeling all the collected data
- - [] Train for multiclass objects
- - [] Change the labeling format of the custom dataset to train in python
- - [] Test on realtime scenarios 
+ - [ ] Labeling all the collected data
+ - [ ] Train for multiclass objects
+ - [ ] Change the labeling format of the custom dataset to train in python
+ - [ ] Test on realtime scenarios 
 
