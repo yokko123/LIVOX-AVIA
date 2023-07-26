@@ -1,5 +1,7 @@
 # Getting Started LIVOX-AVIA
-![](images/detectionv2.gif)
+<p align="center">
+  <img src="images/detectionv2.gif" />
+</p>
 This repository serves as a comprehensive guide on utilizing the LIVOX-AVIA LiDAR system, covering detailed instructions on its usage, accessing recorded data, and subsequently employing the data for object detection purposes.
 
 ## LIVOX Viewer
