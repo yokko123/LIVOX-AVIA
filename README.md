@@ -92,4 +92,4 @@ M-by-9 numeric matrix with rows of the form [xctr, yctr, zctr, xlen, ylen, zlen,
 The figure shows how these values determine the position of a cuboid.
 
 ### Using labels in Python
-For converting the labels to `.txt` file export the labels in workspace and use the provided `label_save.mat` script in matlab inside the [labels_python] folder. It will convert the labels to `.txt` file. 
+For converting the labels to `.txt` file export the labels in workspace and use the provided `label_save.mat` script in matlab inside the [labels_python](labels_python) folder. It will convert the labels to `.txt` file. 
