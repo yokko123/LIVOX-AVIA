@@ -70,7 +70,9 @@ Please run the following command to convert rosbag to pointcloud.
 rosrun pcl_ros bag_to_pcd <input_file.bag> <topic> <output_directory>
 ```
 ## Labeling data in MATLAB
-![Lidar Labeler](images/lidar_labeler.png)
+<p align="center">
+  <img src="images/lidar_labeler.png" />
+</p>
 To utilize MATLAB Lidar Labeler for data labeling, execute the following command to run the application.
 
 ```shell
@@ -93,7 +95,9 @@ To automate the labeling process in MATLAB Lidar Labeler, follow these steps:
 
 By following this approach, you can accelerate the labeling process while still maintaining the accuracy of the annotations by using the provided automation algorithms and making manual corrections as needed.
 ### Format of the Labels
-![Label Format](images/cuboid.png) 
+<p align="center">
+  <img src="images/cuboid.png" />
+</p>
 
 M-by-9 numeric matrix with rows of the form [xctr, yctr, zctr, xlen, ylen, zlen, xrot, yrot, zrot], where:
 - M is the number of labels in the frame.
@@ -112,7 +116,6 @@ For converting the labels to `.txt` file export the labels in workspace and use 
 
 ## Training with Matlab
 ### Point Pillers Network
-<!-- ![](images/pp_1.png) | ![](images/pp_2.png) -->
 <p align="center">
   <img alt="Light" src="images/pp_1.png" width="45%">
 &nbsp; &nbsp; &nbsp; &nbsp;
