@@ -79,7 +79,8 @@ To automate the labeling process in MATLAB Lidar Labeler, follow these steps:
 
 By following this approach, you can accelerate the labeling process while still maintaining the accuracy of the annotations by using the provided automation algorithms and making manual corrections as needed.
 ### Format of the Labels
-![Label Format](images/cuboid.png)
+![Label Format](images/cuboid.png) 
+
 M-by-9 numeric matrix with rows of the form [xctr, yctr, zctr, xlen, ylen, zlen, xrot, yrot, zrot], where:
 - M is the number of labels in the frame.
 
