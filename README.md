@@ -98,7 +98,7 @@ For converting the labels to `.txt` file export the labels in workspace and use 
 
 ## Training with Matlab
 ### Point Pillers Network
-![](images/pp_1.png) ![](images/pp_2.png)
+![](images/pp_1.png) | ![](images/pp_2.png)
 For using point pillers network in matlab please follow the instructions given in the link below. 
 ```shell
     https://fr.mathworks.com/help/lidar/ug/object-detection-using-pointpillars-network.html
