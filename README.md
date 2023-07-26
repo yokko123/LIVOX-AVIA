@@ -98,6 +98,7 @@ For converting the labels to `.txt` file export the labels in workspace and use 
 
 ## Training with Matlab
 ### Point Pillers Network
+![](images/pp_1.png) ![](images/pp_2.png)
 For using point pillers network in matlab please follow the instructions given in the link below. 
 ```shell
     https://fr.mathworks.com/help/lidar/ug/object-detection-using-pointpillars-network.html
@@ -127,5 +128,5 @@ For our data please follow the given `[train_pcd.mlx](train_matlab/yolov4.mlx)` 
  - https://livoxtech.com/
  - https://fr.mathworks.com/
  - https://github.com/Livox-SDK
- 
+
 
