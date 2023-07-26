@@ -111,5 +111,14 @@ For using point pillers network in matlab please follow the instructions given i
 ```
 For our data please follow the given `[train_pcd.mlx](train_matlab/yolov4.mlx)` script inside `[train_matlab](train_matlab)` folder.
 
-##To Do
+## To Do
  - [X] Object Detection
+ - [X] Distance Measurement
+ - [X] Distance Measurement in real time
+ - [X] Data Collection for custom dataset
+ - [X] Train deep learning models on small dataset in MATLAB and measure distance of the objects 
+ - [] Labeling all the collected data
+ - [] Train for multiclass objects
+ - [] Change the labeling format of the custom dataset to train in python
+ - [] Test on realtime scenarios 
+
