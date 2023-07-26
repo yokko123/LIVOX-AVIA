@@ -78,3 +78,18 @@ To automate the labeling process in MATLAB Lidar Labeler, follow these steps:
 - Repeat the process for each object you want to label automatically. For each object, select one instance of it in each frame and apply the automation algorithm followed by manual corrections.
 
 By following this approach, you can accelerate the labeling process while still maintaining the accuracy of the annotations by using the provided automation algorithms and making manual corrections as needed.
+### Format of the Labels
+![Label Format](images/cuboid.png)
+M-by-9 numeric matrix with rows of the form [xctr, yctr, zctr, xlen, ylen, zlen, xrot, yrot, zrot], where:
+- M is the number of labels in the frame.
+
+- xctr, yctr, and zctr specify the center of the cuboid.
+
+- xlen, ylen, and zlen specify the length of the cuboid along the x-axis, y-axis, and z-axis, respectively, before rotation has been applied.
+
+- xrot, yrot, and zrot specify the rotation angles for the cuboid along the x-axis, y-axis, and z-axis, respectively. These angles are clockwise-positive when looking in the forward direction of their corresponding axes.
+
+The figure shows how these values determine the position of a cuboid.
+
+### Using labels in Python
+For converting the labels to `.txt` file export the labels in workspace and use the provided `label_save.mat` script in matlab inside the [labels_python] folder. It will convert the labels to `.txt` file. 
