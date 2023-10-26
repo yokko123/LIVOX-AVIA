@@ -52,9 +52,8 @@ Please make sure that the fixed_frame in RVIZ is changed to livox_frame
   <img src="images/detection.png" />
 </p>
 In this repository, you will find the Livox Object Detection Version 2, which includes the necessary code to perform object detection using Livox LiDAR data. To enable distance measurement with object detection, you can replace the existing `test_ros.py` and `vis_ros.py` files from `tools` folder in the repository with the provided files in `detection-v-2` folder. Once you replace the file, run the updated code, and it will integrate distance measurement with the object detection functionality, utilizing Livox LiDAR data for accurate results.
-```shell
-https://github.com/Livox-SDK/livox_detection
-```
+Link - https://github.com/Livox-SDK/livox_detection
+
 For seamless operation, it is essential to have both the CUDA version and the PyTorch Cuda version identical. This ensures compatibility and enables efficient utilization of GPU resources for accelerated processing.
 ```shell
 Please make sure that the fixed_frame in RVIZ is changed to livox_frame
